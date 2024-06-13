@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
   *::after,
   *::before{
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
   }
 
   img{
@@ -14,7 +15,8 @@ export const GlobalStyles = createGlobalStyle`
   
   body{
     margin: 0;
-    font-family: sans-serif;
+    background-color: #111;
+    
   }
 
   a{
